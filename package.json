@@ -7,7 +7,7 @@
     "client": "vite",
     "server": "json-server --watch src/jobs.json --port 8000",
     "dev": "concurrently \"npm run client\" \"npm run server\"",
-    "build": "npm install && npm run server && vite build",
+    "build": "npm run server && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
