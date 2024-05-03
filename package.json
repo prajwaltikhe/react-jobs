@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "client": "vite",
     "server": "json-server --watch src/jobs.json --port 8000",
-    "dev": "concurrently \"npm run start\" \"npm run server\"",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
